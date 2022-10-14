@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/languagecard_project/static/css/main.5bd05e67.css",
+    "main.js": "/languagecard_project/static/js/main.acca0699.js",
+    "static/media/php.png": "/languagecard_project/static/media/php.c767c5711b90ad735bbf.png",
+    "static/media/python.png": "/languagecard_project/static/media/python.40f1d1b14bc2113b7b05.png",
+    "static/media/css.png": "/languagecard_project/static/media/css.616d011c7fdb34d35b95.png",
+    "static/media/javascript.png": "/languagecard_project/static/media/javascript.7f8751632b42a9932c15.png",
+    "static/media/ts.png": "/languagecard_project/static/media/ts.1a203e65baa39b0b972d.png",
+    "static/media/java.png": "/languagecard_project/static/media/java.a507ef793e957ee9b476.png",
+    "static/media/cpp.png": "/languagecard_project/static/media/cpp.c0a0d2fd9fd3519dbdce.png",
+    "index.html": "/languagecard_project/index.html",
+    "main.5bd05e67.css.map": "/languagecard_project/static/css/main.5bd05e67.css.map",
+    "main.acca0699.js.map": "/languagecard_project/static/js/main.acca0699.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd05e67.css",
+    "static/js/main.acca0699.js"
+  ]
+}
