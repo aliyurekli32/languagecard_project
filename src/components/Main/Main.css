@@ -1,0 +1,83 @@
+.container{
+    width: 400px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCC;
+    margin: 40px 0;
+    
+  
+
+}
+
+
+.scene {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #CCC;
+    margin: 40px 0;
+    perspective: 600px;
+    
+  }
+  img{
+    margin-top: 20px;
+    width:130px;
+    height: 130px;
+    
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    background-color: aquamarine;
+    border: 1px solid red;
+  }
+  
+  .card.is-flipped {
+    transform: rotateY(180deg);
+    background-color: aquamarine;
+  }
+  
+  .card__face {
+    background-color: aquamarine;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    color: rgb(24, 22, 22);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+  }
+  
+  .card__face--front {
+    background-color: aquamarine;
+    background: red;
+  }
+  
+  .card__face--back {
+    background-color: aquamarine;
+    transform: rotateY(180deg);
+  }
+
+  span{
+    background-color: aquamarine;
+    display: block;
+    color: darkblue;
+  }
+
+  .list{
+    width: 150px;
+    height: 85px;
+    line-height: 30px;
+    background-color: aquamarine;
+  }
